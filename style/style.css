@@ -1,34 +1,53 @@
-*{
+body{
     margin: 0;
     padding: 0;
-}
-.head{
-    text-align: center;
-}
-.container{
-    border: 1px solid black;
-    height: 500px;
-    width:500px;
-    margin-top: 130px;
-    padding: 20px;
-}
-input{
-    width: 350px;
-    margin-left: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-    text-align: center;
+    background-image: url("../assert/img2");
+    
     
 }
- button{
-    width: 80px;
-    background-color:lightblue;
-    color: white;
+h2{
+    text-align: center;
+    margin:5px;
+   
+}
+
+.container{
+    border: 1px solid black;
+    width:600px;
+    margin-bottom: 20%;
+    margin-top: 10%;
+    box-shadow: inset -5px -5px rgba(0,0,0,0.5);
+}
+input,button{
+    margin-bottom: 10px;
+
+}
+input{
+    margin-right: 20px;
+    padding: 10px;
+    width: 300px;
+    margin-left: 20px;
+    width: 400px;
     border-radius: 10px;
 }
- #add{ 
-    /* border: 1px solid black;  */
-    margin-left: 20px;
-    margin-top: 20px;
+button{
+    width: 80px;
+    padding: 10px;
+    background-color: rgb(7, 7, 93);
+    color: azure;
+    border: none;
+    border-radius: 15px;
+    margin: 0 0 0 40px;
+    
 }
+
+li{
+    list-style-type: none;
+   margin-left: -40px;
+   padding-left: 30px;
+   margin-top: 10px; 
+
+  
+}
+
 
