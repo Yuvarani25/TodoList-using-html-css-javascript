@@ -11,30 +11,30 @@
 
 </head>
 <body>
-    <div class="section">
-        <div class="container">
-            <div class="head">
-                <h2>TO DO LIST</h2>
-            </div>
-            <div class="todolist">
-                    <input class="input" type="text" id="input" placeholder="Add some task" >
-                    <button type="text" onclick="add()">ADD</button>
-                    <div id="add"></div>
-            </div>
-            <div class="values1">
-                <input class="input1" type="text" id="input1" value="I will practise html for 1 hour">
-                    <button type="text" id="del" onclick="remove()">DELETE</button>
-            </div>
-            <div class="values2">
-                <input class="input2" type="text" id="input2" value="I will give time for 2 hours css">
-                <button type="text" id="del" onclick="remove()">DELETE</button>
-            </div>
-            <div class="values3">
-                <input class="input3" type="text" id="input3" value="Then i will have dinner">
-                    <button type="text" id="del"  onclick="remove()">DELETE</button>
-            </div>
-        </div>
+    
+  <div class="container">
+        <h2>TO-DO-LIST</h2>
+        <input type="text" id="input" placeholder="Add some task">
+        <button type="submit" id="butn" onclick="add()">Add</button><br><br>
+
+        <ul id="list">
+            <li>I will practice html for 1 hour
+             <button type="submit" id="del" onclick="del(event)">Delete</button><br>
+            </li>
+        </ul>
+        <ul id="list">
+            <li>I will give time for 2 hours css
+                <button type="submit" id="del" onclick="del(event)">Delete</button><br>
+            </li>
+        </ul>
+        <ul id="list">
+            <li>Then I will have dinner
+                <button type="submit" id="del" onclick="del(event)">Delete</button>
+            </li>
+        </ul>
+        <ul id="getinput"></ul>
     </div>
     
 </body>
 </html>
+              
